@@ -60,7 +60,7 @@ function render(context, instruction) {
      * The render function is where you make any changes to the like scaling, adding effects, and blending tracks together.
     */
     
-    // instruction.index reflects the numbered index of each clip in the timelineß
+    // instruction.index reflects the numbered index of each clip in the timeline
     if (instruction.index == 1) {
         // Use AffineTransform to apply a zoom + translation to the second clip
 
