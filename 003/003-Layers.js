@@ -40,7 +40,8 @@ function sequence(inputs) {
 }
 
 function render(context, instruction) {
-    /* instruction.time is a 0-1 normalized value that represents how far through the current
+    /**
+     * instruction.time is a 0-1 normalized value that represents how far through the current
      * instruction you've traveled
      * 
      * Here we're using it to cause the "track2" layer to translate to the left and slightly up
