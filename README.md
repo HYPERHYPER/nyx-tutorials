@@ -11,3 +11,6 @@
 
 ### 004-Filters
 > An example of how built-in filters and blend modes can be added to clips
+
+### 005-Audio
+> Using audio as a media source and making a timeline of video clips to go with it
