@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project id="xJCp4O" application="com.hypno.nyx" application_version="0.9.2" hypnokit_version="17671" name="005-Audio">
+  <file id="G2BrLp" path="005-Audio.js" name="005-Audio.js" main="1"/>
+  <file id="Ddgyf4" path="../../media/a.mp4" name="a.mp4"/>
+  <cameras id="ANivEf" name="Cameras"/>
+  <file id="un9Z5b" path="../../media/music.mp3" name="music.mp3"/>
+</project>
