@@ -1,9 +1,6 @@
 //
-// Blends-And-Transitions-v8.js
+// Blends-And-Transitions-v2.js
 // Blends-And-Transitions
-//
-// Created by Mena Sachdev on 8 Nov 2019 11:17:49am
-// Copyright © 2019 Mena Sachdev. All rights reserved.
 
 import { Asset, Time, TimeRange, Clip, Transform, Vector } from 'hypno'
 import * as coreimage from 'hypno/coreimage'
