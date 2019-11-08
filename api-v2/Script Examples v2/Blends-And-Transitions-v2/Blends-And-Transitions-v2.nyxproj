@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project id="E1z5ef" application="com.hypno.nyx" application_version="0.9.2" hypnokit_version="17671" name="Blends-And-Transitions-v2">
+  <file id="wVNSEM" path="Blends-And-Transitions-api-2.js" name="Blends-And-Transitions-api-2.js" main="1"/>
+  <cameras id="O7NdYT" name="Cameras"/>
+  <file id="I8npdy" path="light-leaks.mp4" name="light-leaks.mp4"/>
+  <file id="k49o7K" path="mask.mp4" name="mask.mp4"/>
+  <file id="BVwYaE" path="music.mp3" name="music.mp3"/>
+  <file id="Bb2vBm" path="screen.mp4" name="screen.mp4"/>
+</project>
