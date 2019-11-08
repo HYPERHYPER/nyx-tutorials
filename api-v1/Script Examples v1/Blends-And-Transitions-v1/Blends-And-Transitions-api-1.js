@@ -2,8 +2,6 @@
 // Blends-And-Transitions.js
 // Blends-And-Transitions
 //
-// Created by Mena Sachdev on 10 Sep 2019 12:30:07pm
-// Copyright © 2019 Mena Sachdev. All rights reserved.
 
 HYPNO.composition.renderSize.width = 960
 HYPNO.composition.renderSize.height = 1280
