@@ -1,9 +1,5 @@
-//
-// test.js
 // RGB-Pulse
 //
-// Created by Mena Sachdev on 6 Nov 2019 3:54:20pm
-// Copyright © 2019 Mena Sachdev. All rights reserved.
 
 import { Asset, Time, TimeRange, Clip, Transform } from 'hypno'
 import * as coreimage from 'hypno/coreimage'
