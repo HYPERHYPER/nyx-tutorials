@@ -1,0 +1,20 @@
+//
+// RGB-Splitter.cikernel
+// RGB-Pulse
+//
+// Created by Mena Sachdev on 9 Sep 2019 4:38:46pm
+// Copyright © 2019 Mena Sachdev. All rights reserved.
+
+kernel vec4 apply (sampler src, float rAmount, float gAmount, float bAmount) {
+
+    vec2 uv = destCoord() / samplerSize(src);
+
+    vec4 cR = sample(src, samplerTransform(src, (uv + vec2(rAmount, 0.0))  * samplerSize(src)));
+    vec4 cG = sample(src, samplerTransform(src, (uv + vec2(gAmount, 0.0)) * samplerSize(src)));
+    vec4 cB = sample(src, samplerTransform(src, (uv + vec2(bAmount, 0.0)) * samplerSize(src)));
+
+    vec4 final = vec4(cR.r, cG.g, cB.b, 1.0);
+
+    vec4 outColor = final;
+    return outColor;
+}

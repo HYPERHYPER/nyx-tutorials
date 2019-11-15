@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project id="IHa8BQ" application="com.hypno.nyx" application_version="0.9.2" hypnokit_version="17671" name="RGB-Pulse-v2">
+  <cameras id="iLBeeq" name="Cameras"/>
+  <file id="ZUvAes" path="input.mp4" name="input.mp4"/>
+  <file id="y4Gtcu" path="music.mp3" name="music.mp3"/>
+  <file id="MV2fCG" path="RGB-Splitter.cikernel" name="RGB-Splitter.cikernel"/>
+  <file id="RUGGQY" path="RGBPulse-api-v2.js" name="RGBPulse-api-v2.js" main="1"/>
+</project>
