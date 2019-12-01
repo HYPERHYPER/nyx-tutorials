@@ -1,0 +1,19 @@
+//
+// overlayShader.cikernel
+// 006-Overlay
+//
+// Created by Nathan Taylor on 1 Dec 2019 11:33:32am
+// Copyright © 2019 Nathan Taylor. All rights reserved.
+
+kernel vec4 apply (sampler src, sampler alpha) {
+    vec4 rgbColor = sample (src, samplerCoord (src));
+    vec4 alphaColor = sample (alpha, samplerCoord (alpha));
+    
+    vec4 outputColor = vec4(1.0);
+    vec3 nothing = vec3(0.0);
+    
+    outputColor.rgb = mix(nothing, rgbColor.rgb, alphaColor.g);
+    outputColor.a = alphaColor.g;
+    
+    return premultiply(outputColor);
+}
